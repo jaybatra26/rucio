@@ -8,8 +8,8 @@ Supported databases
 Rucio uses `SQLAlchemy <https://www.sqlalchemy.org/>`_ as the object-relational mapper between Python and SQL. Rucio is extensively tested against SQLite, MySQL/MariaDB, PostgreSQL, and Oracle and should work with them out of the box. The appropriate connection string has to be set in the ``etc/rucio.cfg``, for example:
 
 Oracle: 
-``oracle://rucio:rucio@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=10121))
-(ENABLE=BROKEN)(CONNECT_DATA=(SERVICE_NAME=localhost)))``
+
+`oracle://rucio:rucio@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=10121))(ENABLE=BROKEN)(CONNECT_DATA=(SERVICE_NAME=localhost)))`
 
 MySQL/MariaDB: ``mysql://rucio:rucio@localhost/rucio``
 
