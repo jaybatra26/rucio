@@ -9,11 +9,8 @@ Rucio uses `SQLAlchemy <https://www.sqlalchemy.org/>`_ as the object-relational 
 
 Oracle: 
 
-```
-
-oracle://rucio:rucio@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=10121))(ENABLE=BROKEN)(CONNECT_DATA=(SERVICE_NAME=localhost)))
-
-```
+``oracle://rucio:rucio@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)``
+``(PORT=10121))(ENABLE=BROKEN)(CONNECT_DATA=(SERVICE_NAME=localhost)))``
 
 MySQL/MariaDB: ``mysql://rucio:rucio@localhost/rucio``
 
